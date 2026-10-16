@@ -41,11 +41,11 @@ typedef enum logic [4:0] {
 // directly to/from the F register.
 // ---------------------------------------------------------------------------
 typedef struct packed {
-    logic z;        // bit 7 — zero
-    logic n;        // bit 6 — subtract
-    logic h;        // bit 5 — half-carry
-    logic c;        // bit 4 — carry
-    logic [3:0] unused; // bits 3-0, hardwired 0
+    logic z;                // bit 7 — zero
+    logic n;                // bit 6 — subtract
+    logic h;                // bit 5 — half-carry
+    logic c;                // bit 4 — carry
+    logic [3:0] unused;     // bits 3-0, hardwired 0
 } flags_t;
 
 // ---------------------------------------------------------------------------
